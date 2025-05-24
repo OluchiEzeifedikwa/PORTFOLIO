@@ -1,0 +1,46 @@
+.about-container {
+    display: flex;
+    gap: 20px;
+    width: 1264px;
+    
+}
+ 
+.about-card {
+    background-color: black;
+    background: linear-gradient(135deg, gray -50%, black 100%);
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(46, 34, 34, 0.295);
+    color: wheat;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.about-header {
+    text-decoration: none;
+    text-align: center;
+    color: wheat;
+    margin-top: 30px;
+}
+
+.about-footer {
+    text-decoration: none;
+    display: grid;
+    margin-top: 100px;
+    border-top: 2px solid #f0f0f0;
+    padding: 20px;
+    width: 1264px;
+    background-color: rgb(50, 50, 50);
+    margin: 0 -20px -20px;
+    color: wheat;    
+}
+
+.copyright {
+    text-align: center;
+}
+
+
+
+  

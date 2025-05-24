@@ -1,0 +1,35 @@
+.navbar {
+    margin: -20px -20px;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 0 4px 8px rgba(112, 128, 144, 1.0);
+    background: linear-gradient(135deg, gray -50%, black 100%);
+}
+
+.navbar ul {
+    list-style: none;
+    margin: -20px;
+    padding: 0;
+    display: flex;
+    float: right;
+}
+
+.navbar li {
+    margin-right: 50px;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: wheat;
+    text-align: center;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.navbar p {
+    color: wheat;
+    margin-bottom: -3px;
+}

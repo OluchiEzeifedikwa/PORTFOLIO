@@ -1,0 +1,51 @@
+.container {
+    background-color: black;
+    background: linear-gradient(135deg, gray 0%, black 100%);
+    width: 1264px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+  
+.project-card {
+    background-color: black;
+    background: linear-gradient(135deg, gray -50%, black 100%);
+    padding: 70px;
+    align-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 50px;
+    height: 280px;
+    transition: transform 0.5s;
+    color: wheat;
+    box-shadow: 0 4px 8px rgba(112, 128, 144, 1.0);
+}
+
+.project-header {
+    margin-top: 40px;
+    color: wheat;
+    text-align: center;
+}
+
+
+
+.project-card:hover {
+    background-color: dimgray;
+    transform: translateY(-30px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: black;
+}
+  
+.project-link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+  
+.project-link:hover {
+    color: #23527c;
+}
