@@ -1,8 +1,9 @@
 import React from 'react';
+import './Odinbook.css';
 
 const Odinbook = () => {
   return (
-    <div>
+    <body className='odin'>
       <h1>Odin Book</h1>
       <p>A social media app for users to connect, share content, and engage with others.</p>
       <h2>Features</h2>
@@ -21,7 +22,7 @@ const Odinbook = () => {
         <a href="https://odin-book-aivj.onrender.com/home">Live Demo</a>
 
       </div>
-    </div>
+    </body>
   );
 };
 

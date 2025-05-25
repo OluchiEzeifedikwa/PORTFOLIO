@@ -13,8 +13,8 @@ const Home = () => {
   <body className='container'>
   <div className={theme}>
     <div>
-      <h1 className='home-header'>FULL STACK DEVELOPER(PERN STACK)</h1>
-      <h2><i>Hi! I'm MaryannMesh</i></h2>
+      <h1 className='home-header'>FULL STACK DEVELOPER (PERN STACK)</h1>
+      <h2>Hi I'm Oluchi, I'm a fullstack developer</h2>
       <div className='home-container'>
         <div className='home-card'>
           <img src={projectImage} alt="Project Image" />
