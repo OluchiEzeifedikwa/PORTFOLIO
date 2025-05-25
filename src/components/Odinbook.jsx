@@ -18,7 +18,7 @@ const Odinbook = () => {
         <li>Prisma ORM</li>
         <li>Json Webtoken</li>
         <h2>Live Demo</h2>
-        <a href="">Live Demo</a>
+        <a href="https://odin-book-aivj.onrender.com/home">Live Demo</a>
 
       </div>
     </div>

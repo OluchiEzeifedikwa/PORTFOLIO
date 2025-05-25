@@ -1,11 +1,16 @@
 import React from 'react';
 import './About.css';
+import { useContext } from 'react';
+import { ThemeContext } from './ThemeContext';
+
 
 const About = () => {
+  const { theme } = useContext(ThemeContext);
   return (
-    <>
+    
+    
     <body className='container'>
-      <div className='about-div'>
+    <div className={theme}>
         <h1 className='about-header'>ABOUT ME</h1>
         <div className='about-container'>
           <div className='about-card'>
@@ -54,8 +59,10 @@ const About = () => {
           </p>
         </footer>
     </div> 
+    {/* </div> */}
     </body>
-    </>
+
+    
   );
 };
 

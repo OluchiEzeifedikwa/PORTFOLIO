@@ -1,10 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Project.css';
+import { useContext } from 'react';
+import { ThemeContext } from './ThemeContext';
+
 
 const Project = () => {
+  const { theme } = useContext(ThemeContext);
   return (
     <body className='container'>
+    <div className={theme}>
       <div>
         <h1 className='project-header'>PROJECTS</h1>
         <div className='projects-container'> 
@@ -26,6 +31,7 @@ const Project = () => {
           </footer>
         </div> 
       </div>
+    </div>
     </div>
     </body>
   );

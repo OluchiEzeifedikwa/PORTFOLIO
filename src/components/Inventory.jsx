@@ -14,7 +14,7 @@ const Inventory = () => {
         <li>Postgresql</li>
       </div>
       <h2>Live Demo</h2>
-      <a href="">Live Demo</a>
+      <a href="https://odin-inventory-application-qlkz.onrender.com/">Live Demo</a>
     </div>
   );
 };

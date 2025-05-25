@@ -10,8 +10,8 @@ const Contact = () => {
     <div className='contact-card'>
       <h1>CONTACT ME</h1>
       <TypingEffect text="Please feel free to reach out to me on the channels below:" speed={500} />
-        <a><FaGithub /></a>
-        <a><FaLinkedin /></a>
+      <a href="https://github.com/OluchiEzeifedikwa"><FaGithub /></a>
+      <a href=""><FaLinkedin /></a>
     </div>
     <div>
       <footer className='contact-footer'>
