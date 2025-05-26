@@ -27,7 +27,7 @@ const Project = () => {
         </div>
         <div>
           <footer className='about-footer'>
-            <p className='copyright'>© All Copyright 2025 by Mesh</p>
+            <p className='copyright'>© All Copyright 2025 by MaryannMesh</p>
           </footer>
         </div> 
       </div>

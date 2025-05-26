@@ -8,14 +8,11 @@ const Inventory = () => {
     <div className='inventory'>
       <div>
       <h1>Inventory Application</h1>
-      <p>A web app for managing kitchen inventory, designed for retailers, warehouses and logistics firms.</p>
+      <p>A web app for collection of kitchen items, basically for retailers, warehouses and logistics firms.</p>
       </div>
 
       <div className='features-div'>
-      <h2>Features</h2>
-      {/* </div>
-
-      <div className='inventory-list'> */}
+      <h2>Skills</h2>
         <li>HTML</li>
         <li>CSS</li>
         <li>Express/Node.js</li>

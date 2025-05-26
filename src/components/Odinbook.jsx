@@ -5,8 +5,8 @@ const Odinbook = () => {
   return (
     <body className='odin'>
       <h1>Odin Book</h1>
-      <p>A social media app for users to connect, share content, and engage with others.</p>
-      <h2>Features</h2>
+      <p>A social media app for connecting, sharing content such as posts, comments and likes, specifically to keep in touch with others.</p>
+      <h2>Skills</h2>
       <div className='odin-list'>
         <li>HTML</li>
         <li>CSS</li>

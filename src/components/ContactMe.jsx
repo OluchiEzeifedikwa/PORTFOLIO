@@ -20,13 +20,13 @@ const Contact = () => {
       <TypingEffect text="Please feel free to reach out to me on the channels below:" speed={250} /></div>
       <a href="https://github.com/OluchiEzeifedikwa"><FaGithub /></a>
       <a href="http://linkedin.com/in/oluchi-ezeifedikwa-80b8a51a9"><FaLinkedin /></a>
-      <a href="oluchiezeifedikwa@gmail.com"><FaEnvelope /></a>
+      {/* <a href="oluchiezeifedikwa@gmail.com"><FaEnvelope /></a> */}
     </div>
     <div>
       <footer className='contact-footer'>
         <p className='copyright'>© All Copyright 
           2025 
-          by Mesh
+          by MaryannMesh
         </p>
       </footer>
     </div> 

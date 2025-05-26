@@ -54,7 +54,7 @@ const About = () => {
         <footer className='about-footer'>
           <p className='copyright'>© All Copyright 
           2025 
-          by Mesh
+          by MaryannMesh
           </p>
         </footer>
     </div> 

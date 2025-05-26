@@ -10,9 +10,9 @@ const Navbar = () => {
     return (
         <div className={theme}>
         <nav className='navbar'>
-            
+        <h2 className='name'>MaryannMesh</h2>
             <button onClick={toggleTheme}>
-              <p className='switch'>{theme ==='light' ? ' 🌓 ' : '🔆'} </p>
+              <p className='switch'>{theme === 'dark' ? '🔆' :  '🌓'} </p>
             </button>
             <ul>
                 <li>
