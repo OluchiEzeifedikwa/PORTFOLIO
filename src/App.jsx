@@ -7,7 +7,7 @@ import Project from "./components/Project.jsx";
 import Contact from "./components/ContactMe.jsx";
 import Inventory from "./components/Inventory.jsx";
 import Odinbook from "./components/Odinbook.jsx";
-import Cloudfashion from "./components/cloudfashion.jsx";
+import Cloudfashion from "./components/Cloudfashion.jsx";
 import { ThemeProvider } from './components/ThemeContext.jsx';
 import './app.css';
 import Content from './components/Content.jsx';
