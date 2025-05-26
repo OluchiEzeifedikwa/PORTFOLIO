@@ -8,6 +8,7 @@ const Navbar = () => {
     const { theme, toggleTheme } = useContext(ThemeContext);
     
     return (
+        <div className={theme}>
         <nav className='navbar'>
             
             <button onClick={toggleTheme}>
@@ -28,6 +29,7 @@ const Navbar = () => {
                 </li>
             </ul>
         </nav>
+        </div> 
     );
 };
 

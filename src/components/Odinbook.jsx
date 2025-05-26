@@ -7,7 +7,7 @@ const Odinbook = () => {
       <h1>Odin Book</h1>
       <p>A social media app for users to connect, share content, and engage with others.</p>
       <h2>Features</h2>
-      <div className='clustered-paragraph'>
+      <div className='odin-list'>
         <li>HTML</li>
         <li>CSS</li>
         <li>Node.js</li>

@@ -5,16 +5,17 @@ import projectImage2 from './odinbook.jpg';
 import projectImage3 from './dashboard.jpg';
 import { useContext } from 'react';
 import { ThemeContext } from './ThemeContext';
+import TypingEffect from './TypingEffect';
 
 const Home = () => {
   const { theme } = useContext(ThemeContext);
   
   return (
-  <body className='container'>
+  <body className={theme}>
   <div className={theme}>
     <div>
       <h1 className='home-header'>FULL STACK DEVELOPER (PERN STACK)</h1>
-      <h2>Hi I'm Oluchi, I'm a fullstack developer</h2>
+      <TypingEffect text='Hi! I am Oluchi. Let me walk you through my portfolio' speed={250} /> 
       <div className='home-container'>
         <div className='home-card'>
           <img src={projectImage} alt="Project Image" />

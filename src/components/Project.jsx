@@ -8,7 +8,7 @@ import { ThemeContext } from './ThemeContext';
 const Project = () => {
   const { theme } = useContext(ThemeContext);
   return (
-    <body className='container'>
+    <body className={theme}>
     <div className={theme}>
       <div>
         <h1 className='project-header'>PROJECTS</h1>

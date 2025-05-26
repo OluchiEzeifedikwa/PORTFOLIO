@@ -8,8 +8,7 @@ const About = () => {
   const { theme } = useContext(ThemeContext);
   return (
     
-    
-    <body className='container'>
+    <body className={theme}>
     <div className={theme}>
         <h1 className='about-header'>ABOUT ME</h1>
         <div className='about-container'>
