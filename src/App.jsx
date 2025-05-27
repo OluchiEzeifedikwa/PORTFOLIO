@@ -5,7 +5,7 @@ import Home from "./components/Home.jsx";
 import About from "./components/About.jsx";
 import Project from "./components/Project.jsx";
 import Contact from "./components/ContactMe.jsx";
-import Inventory from "./components/Inventory.jsx";
+import Inventory from "./components/inventory.jsx";
 import Odinbook from "./components/Odinbook.jsx";
 import Cloudfashion from "./components/Cloudfashion.jsx";
 import { ThemeProvider } from './components/ThemeContext.jsx';

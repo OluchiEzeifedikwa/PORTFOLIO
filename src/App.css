@@ -1,3 +1,52 @@
+.navbar {
+  margin: -20px -20px;
+  padding: 30px;
+  background-color: black;
+  box-shadow: 0 4px 8px rgba(112, 128, 144, 1.0);
+  background: linear-gradient(135deg, slategray -50%, black 100%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: -20px;
+  padding: 0;
+  display: flex;
+  float: right;
+}
+
+.navbar li {
+  margin-right: 50px;
+  margin-top: 10px;
+  
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+.navbar p {
+  color: white;
+  margin-bottom: 3px;
+}
+
+.name {
+  margin-bottom: -10px;
+}
+
+.switch {
+  margin-bottom: -1110px;
+}
+
+
+
 .light {
   background-color: #f9f9f9;
   color: #333;
@@ -21,5 +70,164 @@ theme {
 }
 .switch {
   font-size: xx-large;
-  margin-top: -10px;
+  margin-top: -40px;
+}
+
+/* for mobile devices */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 00.5em;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .navbar .menu-icon {
+    display: none;
+  }
+
+  img {
+    height: 220px;
+    width: 130px ;
+  }
+  
+  .home-card {
+    padding: 20px;
+    width: 60%;
+    margin-bottom: 20px 0;
+    
+
+  }
+
+  .about-card {
+    padding: 20px;
+    margin-left: 0;  
+    margin: 20px 0 50px;
+    width: 100%; 
+    
+
+  }
+
+  .project-card {
+    padding:20px;
+    margin-left: 0;
+    height: auto;
+
+  }
+
+  .contact-card { 
+    gap: 20px;
+    padding: 10px;
+    max-width: 100%;
+    margin-left: 0;
+
+  }
+
+
+}
+
+
+/* for tablet */
+@media only screen and (max-width: 769px) and (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    padding: 0.8em;
+  }
+
+  .navbar ul {
+    display: flex;
+  }
+
+  .navbar .menu-icon {
+    display: none;
+  }
+
+  img {
+    height: 330px;
+    width: 195px;
+  }
+
+  .home-card {
+    padding: 30px;
+    width: 40%;
+    margin-bottom: 30px 0;
+
+  }
+
+  .about-card {
+    padding: 25px;
+    margin-left: 15%;  
+    margin: 20px 0 80px;
+    width: 70%; 
+
+  }
+
+  .project-card {
+    padding: 40px;
+    margin-left: 20px;
+    height: 300px;
+
+  }
+
+  .contact-card {
+    gap: 30px;
+    padding: 15px;
+    max-width: 90%;
+    margin-left: 5%;
+    
+  }
+}
+/* for laptops */
+@media only screen and (min-width: 1025px) {
+  .navbar {
+    padding: 1em;
+  }
+
+  .navbar ul {
+    display: flex;
+
+  }
+
+  .navbar .menu-icon {
+    display: none;
+  }
+
+  img{
+    height: 440px;
+    width: 260px;
+}
+
+.home-card {
+    padding: 60px;
+    width: 20%;
+    margin-bottom: 60px 0;
+
+}
+
+.about-card {
+    padding: 30px;
+    margin-left: 160px;  
+    margin-top: 20px;
+    margin-bottom: 100px;
+    width: 300px; 
+
+}
+
+.project-card {
+  padding: 70px;
+  margin-left: 50px;
+  height: 380px;
+
+}
+
+.contact-card {
+    gap: 40px;
+    padding: 10px;
+    max-width: 800px;
+    margin-left: 200px;
+  
+}
+
 }
