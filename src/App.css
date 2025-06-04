@@ -1,233 +1,92 @@
-.navbar {
-  margin: -20px -20px;
-  padding: 30px;
+
+.card {
+  transition: all 0.2s ease-in-out;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   background-color: black;
-  box-shadow: 0 4px 8px rgba(112, 128, 144, 1.0);
-  background: linear-gradient(135deg, slategray -50%, black 100%);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.navbar ul {
-  list-style: none;
-  margin: -20px;
-  padding: 0;
-  display: flex;
-  float: right;
-}
-
-.navbar li {
-  margin-right: 50px;
-  margin-top: 10px;
-  
-}
-
-.navbar a {
-  text-decoration: none;
-  color: white;
-  text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.navbar a:hover {
   color: white;
 }
 
-.navbar p {
-  color: white;
-  margin-bottom: 3px;
+.light-mode {
+  background-color: #f0f0f0;
+  color: #000;
 }
 
-.name {
-  margin-bottom: -10px;
+.dark-mode {
+  background-color: #333;
+  color: #fff;
 }
 
-.switch {
-  margin-bottom: -1110px;
+.theme-switch {
+  position: fixed;
+  top: 10px;
+  right: 10px;
 }
 
-
-
-.light {
-  background-color: #f9f9f9;
-  color: #333;
-}
-
-.dark{
-  background-color: black;
-  color: #f9f9f9;
-}
-
-button{
+.theme-switch button {
   background-color: transparent;
-  height: 40px;
-  width: 50px;
-  float: right;
-  border: 2px solid transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
 }
 
-theme {
-  font-size: xx-large;
-}
-.switch {
-  font-size: xx-large;
-  margin-top: -40px;
+.light-mode {
+  background-color: #f0f0f0;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-/* for mobile devices */
-@media only screen and (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    padding: 00.5em;
-  }
-
-  .navbar ul {
-    display: none;
-  }
-
-  .navbar .menu-icon {
-    display: none;
-  }
-
-  img {
-    height: 220px;
-    width: 130px ;
-  }
-  
-  .home-card {
-    padding: 20px;
-    width: 60%;
-    margin-bottom: 20px 0;
-    
-
-  }
-
-  .about-card {
-    padding: 20px;
-    margin-left: 0;  
-    margin: 20px 0 50px;
-    width: 100%; 
-    
-
-  }
-
-  .project-card {
-    padding:20px;
-    margin-left: 0;
-    height: auto;
-
-  }
-
-  .contact-card { 
-    gap: 20px;
-    padding: 10px;
-    max-width: 100%;
-    margin-left: 0;
-
-  }
-
-
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-
-/* for tablet */
-@media only screen and (max-width: 769px) and (max-width: 1024px) {
-  .navbar {
-    flex-direction: column;
-    padding: 0.8em;
-  }
-
-  .navbar ul {
-    display: flex;
-  }
-
-  .navbar .menu-icon {
-    display: none;
-  }
-
-  img {
-    height: 330px;
-    width: 195px;
-  }
-
-  .home-card {
-    padding: 30px;
-    width: 40%;
-    margin-bottom: 30px 0;
-
-  }
-
-  .about-card {
-    padding: 25px;
-    margin-left: 15%;  
-    margin: 20px 0 80px;
-    width: 70%; 
-
-  }
-
-  .project-card {
-    padding: 40px;
-    margin-left: 20px;
-    height: 300px;
-
-  }
-
-  .contact-card {
-    gap: 30px;
-    padding: 15px;
-    max-width: 90%;
-    margin-left: 5%;
-    
-  }
-}
-/* for laptops */
-@media only screen and (min-width: 1025px) {
-  .navbar {
-    padding: 1em;
-  }
-
-  .navbar ul {
-    display: flex;
-
-  }
-
-  .navbar .menu-icon {
-    display: none;
-  }
-
-  img{
-    height: 440px;
-    width: 260px;
+.nav-link-custom {
+  transition: color 0.3s;
 }
 
-.home-card {
-    padding: 60px;
-    width: 20%;
-    margin-bottom: 60px 0;
-
+.inventory {
+  column-gap: 20px;
+  row-gap: 40px;
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.about-card {
-    padding: 30px;
-    margin-left: 160px;  
-    margin-top: 20px;
-    margin-bottom: 100px;
-    width: 300px; 
-
+.inventory-div {
+  margin-top: 40px;
+  border-radius: 20px;
+  width: 200px;
 }
 
-.project-card {
-  padding: 70px;
-  margin-left: 50px;
-  height: 380px;
-
+.odin{
+  background-color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
 }
 
-.contact-card {
-    gap: 40px;
-    padding: 10px;
-    max-width: 800px;
-    margin-left: 200px;
-  
+.odinhead {
+  color: white;
 }
 
+.cloudfashion {
+  column-gap: 20px;
+  row-gap: 40px;
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.coudfashion-div {
+  margin-top: 40px;
+  border-radius: 20px;
+  width: 200px;
+}
+

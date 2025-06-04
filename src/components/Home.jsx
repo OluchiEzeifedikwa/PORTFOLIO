@@ -1,46 +1,60 @@
 import React from 'react';
-import './Home.css';
-import projectImage from './home.jpg';
-import projectImage2 from './odinbook.jpg';
-import projectImage3 from './dashboard.jpg';
-import { useContext } from 'react';
-import { ThemeContext } from './ThemeContext';
-import TypingEffect from './TypingEffect';
+import { Container, Row, Col, Button, Card } from 'react-bootstrap';
 
-const Home = () => {
-  const { theme } = useContext(ThemeContext);
-  
+function Home() {
   return (
-  <body className={theme}>
-  <div className={theme}>
-    <div>
-      <h1 className='home-header'>FULL STACK DEVELOPER</h1>
-      <h2 className='pern-stack'></h2>
-      <h2 className='pern-stack'><TypingEffect text='Postgresql | Express | React | Node.js' speed={250} /></h2>
-      <div className='home-container'>
-        <div className='home-card'>
-          <img src={projectImage} alt="Project Image" />
-          <p className={theme}>A web app for managing kitchen inventory, designed for retailers, warehouses and logistics firms. Designed with HTML, CSS, Express, Node.js
-          Postgresql</p>
-        </div>
-        <div className='home-card'>
-          <img src={projectImage2} alt="Project Image" />
-          <p className={theme}>A social media app for users to connect, share content, and engage with others. Built with Express, Node.js, postgresql, prisma-orm, EJS, passport, bcrypt, Json Webtoken</p>
-        </div>
-        <div className='home-card'>
-          <img src={projectImage3} alt="Project Image" />
-          <p>A static website showing how to layout the admin dashboard</p>
-        </div>
-        <div>
-          <footer className='home-footer'>
-          <p className='copyright'>© All Copyright 2025 by MaryannMesh</p>
-          </footer>
-        </div>
-      </div>
-      </div>
+      <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+      <Container className="mt-5 flex-grow-1">
+        <Row className="justify-content-center">
+          <Col xs={12} md={8} className="text-center">
+            <h1 className="display-4">FULLSTACK DEVELOPER</h1>
+            <p className="lead fs-5">Postgresql | Express | React | Node.js</p>
+            {/* <Button variant="primary" size="lg">Learn More</Button> */}
+          </Col>
+        </Row>
+      </Container>
+      <Container fluid className="p-5 flex-grow-1">
+        <Row className="justify-content-center">
+          <Col xs={12} sm={6} md={4} className="mb-4">
+            <Card className="h-100">
+              <Card.Img variant="top" src='/home.jpg' />
+              <Card.Body>
+                <Card.Title>Inventory App</Card.Title>
+                <Card.Text>A web application used for collection of kitchen and food items. Built with Express, Node.js, postgresql, EJS</Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs={12} sm={6} md={4} className="mb-4">
+            <Card className="h-100">
+              <Card.Img variant="top" src="/odinbook.jpg" />
+              <Card.Body>
+                <Card.Title>Odinbook App</Card.Title>
+                <Card.Text>A social media app used to connect to people, share and like posts. Built with Express, Node.js, EJS, postgresql, Prisma ORM, passport, JWT authentication</Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs={12} sm={6} md={4} className="mb-4">
+            <Card className="h-100">
+              <Card.Img variant="top" src="dashboard.jpg" />
+              <Card.Body>
+                <Card.Title>Cloud Fashion</Card.Title>
+                <Card.Text>A static website used to show how to implement the flexbox and layout. Built with HTML and flexbox</Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+      <footer className="bg-dark text-white text-center p-3 border-top mt-auto">
+        <Container>
+          <Row>
+            <Col xs={12}>
+              <p>&copy; {new Date().getFullYear()} Oluchi Ezeifedikwa. All rights reserved.</p>
+            </Col>
+          </Row>
+        </Container>
+      </footer>
     </div>
-    </body>
   );
-};
+}
 
 export default Home;
