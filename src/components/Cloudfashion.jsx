@@ -12,7 +12,7 @@ const CloudFashion = () => {
         <li>HTML</li>
         <li>CSS</li>
         <li>Flexbox</li>
-        <a href="https://odin-book-aivj.onrender.com/home">Live Demo</a> 
+        <a href="https://odin-admin-dashboard-2.onrender.com/">Live Demo</a> 
       </div>
   </div>
   );

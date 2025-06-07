@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
 
 function Projects() {
   return (
@@ -11,7 +13,7 @@ function Projects() {
             <Card.Img variant="top" src="kitchen.jpg" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
             <Card.Body>
               <Card.Title className="fs-5">Inventory App</Card.Title>
-              <a href="/inventory" className="text-decoration-none">View Project</a>
+              <Link to="/inventory" className="text-decoration-none">View Project</Link>
             </Card.Body>
           </Card>
         </Col>
@@ -20,7 +22,7 @@ function Projects() {
             <Card.Img variant="top" src="odinbook.jpg" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
             <Card.Body>
               <Card.Title className="fs-5">Odin book</Card.Title>
-              <a href="/odinbook" className="text-decoration-none">View Project</a>
+              <Link to="/odinbook" className="text-decoration-none">View Project</Link>
             </Card.Body>
           </Card>
         </Col>
@@ -29,7 +31,7 @@ function Projects() {
             <Card.Img variant="top" src="dashboard.jpg" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
             <Card.Body>
               <Card.Title className="fs-5">cloud fashion</Card.Title>
-              <a href="/cloudfashion" className="text-decoration-none">View Project</a>
+              <Link to="/cloudfashion" className="text-decoration-none">View Project</Link>
             </Card.Body>
           </Card>
         </Col>
