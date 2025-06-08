@@ -7,7 +7,7 @@ import Projects from './components/Projects.jsx';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import Inventory from "./components/Inventory.jsx";
 import Odinbook from "./components/Odinbook.jsx";
-import CloudFashion from './components/Cloudfashion.jsx';
+import Todolist from './components/Todolist.jsx';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -63,7 +63,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/inventory" element={<Inventory />} />
           <Route path="/odinbook" element={<Odinbook />} />
-          <Route path="/cloudfashion" element={<CloudFashion />} />
+          <Route path="/todolist" element={<Todolist />} />
         </Routes>
       </div>
     </BrowserRouter>
