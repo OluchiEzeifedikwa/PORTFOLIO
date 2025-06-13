@@ -5,9 +5,9 @@ import About from './components/About.jsx';
 import Contact from './components/ContactMe.jsx';
 import Projects from './components/Projects.jsx';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import Inventory from "./components/inventory.jsx";
+import Inventory from "./components/Inventory.jsx";
 import Odinbook from "./components/Odinbook.jsx";
-import Todolist from './components/Todolist.jsx';
+import Todolist from "./components/Todolist.jsx";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
