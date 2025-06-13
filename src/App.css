@@ -75,7 +75,7 @@
   color: white;
 }
 
-.cloudfashion {
+.todolist {
   column-gap: 20px;
   row-gap: 40px;
   margin-top: 40px;
@@ -84,7 +84,7 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.coudfashion-div {
+.todolist-div {
   margin-top: 40px;
   border-radius: 20px;
   width: 200px;

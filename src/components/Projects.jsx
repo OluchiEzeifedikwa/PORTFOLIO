@@ -30,8 +30,8 @@ function Projects() {
           <Card className="h-100">
             <Card.Img variant="top" src="dashboard.jpg" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
             <Card.Body>
-              <Card.Title className="fs-5">cloud fashion</Card.Title>
-              <Link to="/cloudfashion" className="text-decoration-none">View Project</Link>
+              <Card.Title className="fs-5">Todolist</Card.Title>
+              <Link to="/todolist" className="text-decoration-none">View Project</Link>
             </Card.Body>
           </Card>
         </Col>

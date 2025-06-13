@@ -5,9 +5,9 @@ import React from 'react';
 const Todolist = () => {
   return (
     <div className='todolist'>
-    <h1>Cloud Fashion</h1>
-    <p>A static website for showing layout and positioning for most website home</p>
-    <div className='todolist-list'>
+    <h1>Todolist</h1>
+    <p>A todo-list app used for writing list of things to do</p>
+    <div className='todolist-div'>
     <h2>Skills</h2>
         <li>HTML</li>
         <li>EJS</li>
@@ -15,7 +15,7 @@ const Todolist = () => {
         <li>Nodejs</li>
         <li>Express</li>
         <li>Prisma ORM</li>
-        <a href="https://todo-list-z516.onrender.com">Live Demo</a> 
+        <a href="https://todo-list-1-knqx.onrender.com">Live Demo</a> 
       </div>
   </div>
   );
